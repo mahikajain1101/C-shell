@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/utsname.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <pwd.h>
+#include <grp.h>
+#include <dirent.h>
+#include <time.h>
+#include "pwd_.h"
+#include "display.h"
+#include "signal.h"
+#include "cd.h"
+#include "echo.h"
+#include "ls.h"
+#include "history.h"
+#include "sys/wait.h"
+#include "pinfo.h"
+#include "fg_bg.h"
+#include "discover.h"
+#include "handler.h"
+#include "pipe.h"
+#include "execute.h"
+#include "jobs.h"
+#define MAX 1000
+
